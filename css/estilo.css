@@ -1,0 +1,50 @@
+body {
+  background-color: #009999;
+}
+
+#quartos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#quarto {
+  width: 30%;
+  border: 1px;
+  box-shadow: black 1px 2px 2px 3px;
+  margin: 5px;
+  padding: 2px;
+}
+
+#quarto p {
+  margin: 1px;
+}
+
+#quarto:hover {
+  background-color: #006666;
+}
+
+.quarto-titulo {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.quarto-texto {}
+
+.quarto-valor {}
+
+.quarto:hover .quarto-titulo {
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+}
+
+.quarto:hover .quarto-texto {
+  color: white;
+}
+
+.quarto:hover .quarto-valor {
+  font-weight: bold;
+  color: #b30000;
+}
